@@ -16,3 +16,15 @@
 >* 鼓勵agent 盡快完成任務
 >* 用Discount的t次方,代表時間越近,就影響越大
 
+
+7. gym 中使用env回傳的reward不一定是效率最高的,也可以自定義
+
+8.value function 是預估未來時刻的reward期望值,直接採樣去獲得是不合理的,因為採樣的只是其中一條**Trajectory**,所以會用一個神經網絡去預測.
+
+
+-------------------------------------
+![result](/home/yo/github/reinforcement-learning/cs294-homework/hw2/walker_result.png  "result")
+我們比較三種情況：
+> *  有使用reward to go 可看出表現較好
+> * 使用 adventage normalization 收斂較快 
+
