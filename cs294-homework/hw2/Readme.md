@@ -22,8 +22,9 @@
 8.value function 是預估未來時刻的reward期望值,直接採樣去獲得是不合理的,因為採樣的只是其中一條**Trajectory**,所以會用一個神經網絡去預測.
 
 
+
 -------------------------------------
-![result](/home/yo/github/reinforcement-learning/cs294-homework/hw2/walker_result.png  "result")
+![result](https://github.com/citya1472581234/reinforcement-learning/blob/master/cs294-homework/hw2/walker_result.png?raw=true  "result")
 我們比較三種情況：
 > *  有使用reward to go 可看出表現較好
 > * 使用 adventage normalization 收斂較快 
